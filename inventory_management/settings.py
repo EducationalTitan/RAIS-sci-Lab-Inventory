@@ -25,8 +25,7 @@ SECRET_KEY = 'django-insecure-y3ehil7zqx%c2b5rw&3ot6$kc5x%lsm-yb1g12cav7#57ah+jn
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-if some_condition:
-    ALLOWED_HOSTS = ['https://rais-sci-lab-inventory.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['https://rais-sci-lab-inventory.onrender.com', 'localhost', '127.0.0.1']
 
 # Application definition
 
